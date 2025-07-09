@@ -1,0 +1,122 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff9f5;
+    color: #333;
+    margin:0;
+}
+.hero-header{
+    text-align: center;
+    background-color:  #ffe6e6;
+    padding: 60px 20px;
+    position: relative;
+}
+
+.profile-img {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  width: 250px; /* adjust as needed */
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%; /* makes it circular */
+  border: 2px solid #fff;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+header h1{
+    margin:0;
+    font-size: 50px;
+}
+header p{
+    font-size: 20px;
+    color: #666;
+}
+nav{
+    margin-top: 20px;
+}
+nav a{
+    color: #ff8c94;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover{
+    color: #ff4d6d;
+}
+section{
+    padding:60px 20px;
+    text-align: center;
+}
+section p{
+    text-align: center;
+}
+h2{
+    color: #ff7f50;
+    margin-bottom: 20px;
+}
+.project-card{
+    background-color: #e6f7ff;
+    border-radius: 12px;
+    margin: 20px auto;
+    max-width: 500px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+.project-card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #1e90ff;
+  text-decoration: none;
+}
+.project-card a:hover {
+  text-decoration: underline;
+}
+.projects-container {
+  display: flex;
+  justify-content: center; 
+  gap: 15x; 
+  flex-wrap: wrap; 
+  padding: 10px;
+}
+#hobbies ul, #skills ul{
+    list-style: none;
+    padding: 0;
+}
+#hobbies li, #skills li{
+    display: inline-block;
+    background-color: #fff0f5;
+    color: #333;
+    margin: 8px;
+    padding: 10px 16px;
+    border-radius: 20px;
+    font-weight: 500;
+}
+.button {
+  background-color: #ff8c94;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.button:hover {
+  background-color: #ff4d6d;
+}
+#contact a{
+    text-decoration: none;
+    color: #1e90ff;
+    font-weight: bold;
+}
+#contact a:hover{
+    text-decoration: underline;
+    color: #ff4d6d;
+}
+
+footer{
+    text-align: center;
+    background-color:  #ffe6e6;
+    padding: 20px;
+    color: #666;
+}
+#skills h4{
+    text-decoration: underline;
+}
