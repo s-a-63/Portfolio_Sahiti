@@ -39,8 +39,9 @@ nav a{
     text-decoration: none;
     font-weight: bold;
 }
-nav a:hover{
+nav a:hover, #skills li:hover{
     color: #ff4d6d;
+    transform: scale(1.06);
 }
 section{
     padding:60px 20px;
@@ -70,6 +71,10 @@ h2{
 .project-card a:hover {
   text-decoration: underline;
 }
+.project-card:hover{
+    transform: scale(1.06);
+    transition: color 0.3s ease;
+}
 .projects-container {
   display: flex;
   justify-content: center; 
@@ -89,6 +94,11 @@ h2{
     padding: 10px 16px;
     border-radius: 20px;
     font-weight: 500;
+    transition: color 0.3s ease;
+}
+#hobbies li:hover{
+    transform:scale(1.06);
+    color: #ff4d6d;
 }
 .button {
   background-color: #ff8c94;
