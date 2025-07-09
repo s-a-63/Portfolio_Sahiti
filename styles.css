@@ -15,10 +15,10 @@ body{
   position: absolute;
   top: 20px;
   right: 50px;
-  width: 250px; /* adjust as needed */
+  width: 250px; 
   height: 250px;
   object-fit: cover;
-  border-radius: 50%; /* makes it circular */
+  border-radius: 50%; 
   border: 2px solid #fff;
   box-shadow: 0 0 8px rgba(0,0,0,0.1);
 }
